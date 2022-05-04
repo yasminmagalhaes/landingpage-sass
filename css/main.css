@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  width: 100%;
+  max-width: 124.6rem;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 11.9rem;
+  background-color: #5F3CA1;
+  display: flex;
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li:not(:first-child) {
+  margin-left: 5.6rem;
+}
+
+header nav ul li a {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li span {
+  font-size: 1.6rem;
+  margin-left: 1.6rem;
+  line-height: 1.9rem;
+  color: #FFFFFF;
+}
+
+@media (max-width: 600px) {
+  header .container {
+    justify-content: center;
+  }
+  header nav {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    height: 8rem;
+  }
+  header .logo {
+    max-width: 14rem;
+  }
+}
+
+.s-hero {
+  background-color: #5F3CA1;
+  margin-top: 11.9rem;
+  padding-top: 3.9rem;
+}
+
+.s-hero .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.s-hero .text {
+  width: 100%;
+  max-width: 55rem;
+}
+
+.s-hero .text h1 {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 120%;
+  color: #FFFFFF;
+  margin-bottom: 1.6rem;
+}
+
+.s-hero .text p {
+  font-size: 1.8rem;
+  line-height: 150%;
+  color: #FFFFFF;
+  max-width: 48.8rem;
+  margin-bottom: 3.2rem;
+}
+
+.s-hero .text button {
+  display: inline-block;
+  color: #5F3CA1;
+  height: 5.4rem;
+  line-height: 5.4rem;
+  background-color: #FFBF00;
+  border-radius: 6px;
+  padding: 0px 5rem;
+  font-weight: bold;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.s-hero .text button:hover {
+  background-color: #5F3CA1;
+  color: #FFBF00;
+}
