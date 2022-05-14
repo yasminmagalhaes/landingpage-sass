@@ -176,6 +176,7 @@ header nav ul li span {
   }
   .s-hero .text {
     max-width: 100%;
+    margin-bottom: 3rem;
   }
   .s-hero .text h1 {
     text-align: center;
@@ -191,5 +192,12 @@ header nav ul li span {
   }
   .s-hero .text .conheca {
     justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .s-hero {
+    padding-top: 2.5rem;
+    margin-top: 8rem;
   }
 }

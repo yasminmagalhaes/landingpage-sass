@@ -56,6 +56,7 @@
         }
         .text {
             max-width: 100%;
+            margin-bottom: 3rem;
             h1 {
                 text-align: center;
             }
@@ -72,6 +73,10 @@
                 justify-content: center;
             }
         }
+    }
+    @include responsive(600px){
+        padding-top: 2.5rem;
+        margin-top: 8rem;
     }
 }
 
