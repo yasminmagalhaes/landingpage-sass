@@ -200,4 +200,7 @@ header nav ul li span {
     padding-top: 2.5rem;
     margin-top: 8rem;
   }
+  .s-hero .text h1 {
+    font-size: 4.3rem;
+  }
 }

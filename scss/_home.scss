@@ -77,6 +77,11 @@
     @include responsive(600px){
         padding-top: 2.5rem;
         margin-top: 8rem;
+        .text {
+            h1 {
+                font-size: 4.3rem;
+            }
+        }
     }
 }
 
