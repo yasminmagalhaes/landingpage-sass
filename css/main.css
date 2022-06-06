@@ -38,6 +38,7 @@ header {
   height: 11.9rem;
   background-color: #5F3CA1;
   display: flex;
+  z-index: 2021;
 }
 
 header .container {
@@ -171,6 +172,9 @@ header nav ul li span {
 }
 
 @media (max-width: 991px) {
+  .s-hero .image {
+    margin: auto;
+  }
   .s-hero .container {
     flex-direction: column;
   }
@@ -195,16 +199,17 @@ header nav ul li span {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .s-hero {
     padding-top: 2.5rem;
     margin-top: 8rem;
   }
   .s-hero .text h1 {
+    padding-top: 10px;
     font-size: 4.3rem;
   }
   .s-hero .image {
-    left: -8px;
+    left: -14px;
   }
 }
 
@@ -280,6 +285,16 @@ header nav ul li span {
   height: 32.3rem;
   background-color: rgba(197, 190, 220, 0.1);
   border-radius: 1.2rem;
+  padding-top: 4.1rem;
+  padding-left: 4.2rem;
+}
+
+.s-resources .content .card-featured .icon {
+  background-color: #FFFFFF;
+}
+
+.s-resources .content .card-featured .info {
+  max-width: 20.4rem;
 }
 
 .s-resources .content ul {
@@ -289,4 +304,71 @@ header nav ul li span {
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
+  margin-top: 4.1rem;
+  border-bottom: 0.3rem solid rgba(95, 60, 161, 0.1);
+  border-radius: 1.2rem;
+  padding-bottom: 6.5rem;
+  padding-left: 2.0rem;
+}
+
+@media (max-width: 991px) {
+  .s-resources .content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .s-resources .content .card-featured {
+    max-width: 100%;
+    height: auto;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .s-resources .content .card-featured .info {
+    max-width: 100%;
+  }
+  .s-resources .content .card-featured .info h4, .s-resources .content .card-featured .info p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .s-resources {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+  }
+  .s-resources .top {
+    flex-direction: column;
+  }
+  .s-resources .top h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .s-resources .content ul {
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .s-resources {
+    padding-top: 6rem;
+  }
+  .s-resources .content ul {
+    flex-direction: column;
+    padding-left: 0px;
+    margin-top: 3rem;
+  }
+  .s-resources .content ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .s-resources .content ul li h4, .s-resources .content ul li p {
+    text-align: center;
+  }
+  .s-resources .content .info {
+    max-width: 95%;
+  }
 }
