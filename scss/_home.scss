@@ -82,6 +82,69 @@
                 font-size: 4.3rem;
             }
         }
+        .image {
+            left: -8px;
+        }
     }
 }
 
+.s-resources {
+    padding-top: 14.9rem;
+    padding-bottom: 9.9rem;
+    .top {
+        @include flex(row, center, space-between);
+        margin-bottom: 5.3rem;
+        h2 {
+            font-family: 'PT Sans', sans-serif;
+            font-weight: bold;
+            font-size: 3.2rem;
+            line-height: 130%;
+            color: $gray-01;
+            max-width: 50.2rem;
+        }
+        p {
+            font-weight: 400;
+            font-size: 1.6rem;
+            line-height: 165%;
+            color: $gray-02;
+        }
+    }
+    .content {
+        @include flex(row, flex-start, space-between);
+        .icon {
+            width: 6.4rem;
+            height: 6.4rem;
+            background-color: rgba(197, 190, 220, 0.1);
+            border-radius: 12px;
+            @include flex(row, center, center);
+            margin-bottom: 3rem;
+        }
+        .info {
+            max-width: 23.9rem;
+            h4 {
+                font-weight: bold;
+                font-size: 1.8rem;
+                line-height: 2.2rem;
+                color: $purple;
+                margin-bottom: 2rem;
+            }
+            p {
+                font-size: 1.6rem;
+                line-height: 165%;
+                color: $gray-02;
+            }
+        }
+        .card-featured {
+            width: 100%;
+            max-width: 28rem;
+            height: 32.3rem;
+            background-color: rgba(197, 190, 220, 0.1);
+            border-radius: 1.2rem;
+        }
+        ul {
+            width: 100%;
+            max-width: 90.4rem;
+            @include flex(row, flex-start, space-between);
+        }
+    }
+}

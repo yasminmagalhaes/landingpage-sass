@@ -203,4 +203,90 @@ header nav ul li span {
   .s-hero .text h1 {
     font-size: 4.3rem;
   }
+  .s-hero .image {
+    left: -8px;
+  }
+}
+
+.s-resources {
+  padding-top: 14.9rem;
+  padding-bottom: 9.9rem;
+}
+
+.s-resources .top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5.3rem;
+}
+
+.s-resources .top h2 {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 3.2rem;
+  line-height: 130%;
+  color: #453F51;
+  max-width: 50.2rem;
+}
+
+.s-resources .top p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 165%;
+  color: #5E5570;
+}
+
+.s-resources .content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.s-resources .content .icon {
+  width: 6.4rem;
+  height: 6.4rem;
+  background-color: rgba(197, 190, 220, 0.1);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.s-resources .content .info {
+  max-width: 23.9rem;
+}
+
+.s-resources .content .info h4 {
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  color: #5F3CA1;
+  margin-bottom: 2rem;
+}
+
+.s-resources .content .info p {
+  font-size: 1.6rem;
+  line-height: 165%;
+  color: #5E5570;
+}
+
+.s-resources .content .card-featured {
+  width: 100%;
+  max-width: 28rem;
+  height: 32.3rem;
+  background-color: rgba(197, 190, 220, 0.1);
+  border-radius: 1.2rem;
+}
+
+.s-resources .content ul {
+  width: 100%;
+  max-width: 90.4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
 }
